@@ -7,10 +7,10 @@ public partial class ExecutorCS : Node
 {
 	private bool conectionOpen = false;
 
-	static string Server = "tuffi.db.elephantsql.com";
-    static string User = "adcnimlh";
-    static string DB = "adcnimlh";
-    static string Password = "insira a senha";
+	static string Server = "Server=tuffi.db.elephantsql.com";
+	static string User = "User Id=";
+	static string DB = "Database=";
+	static string Password = "Password=";
 
 	NpgsqlConnection Connection = new NpgsqlConnection(Server + ";" + User + ";" + Password + ";" + DB);
 
@@ -18,7 +18,7 @@ public partial class ExecutorCS : Node
 	{
 		Connection.Open();
 		conectionOpen = true;
-    }
+	}
 	public void registrarJogador(string Nome, int Pontuacao)
 	{
 		
@@ -35,13 +35,13 @@ public partial class ExecutorCS : Node
 			string atualizarRegistro = String.Format("UPDATE highscore SET nome = '{0}', score = {1} WHERE id = '{2}'", Nome, Pontuacao, Id);
 			NpgsqlCommand comandoAtualizar = new NpgsqlCommand(atualizarRegistro, Connection);
 			comandoAtualizar.ExecuteNonQuery();
-        }
+		}
 		else
 		{
 			string inserirRegistro = String.Format("INSERT INTO highscore (nome, score) VALUES ('{0}', {1})", Nome, Pontuacao);
 			NpgsqlCommand comandoInserir = new NpgsqlCommand(inserirRegistro, Connection);
 			comandoInserir.ExecuteNonQuery();
-        }
+		}
 	}
 	public void retornarJogadores()
 	{

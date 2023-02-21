@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DEV\\GODOT\\HIGHSCORE\\HighScore.csproj": {}
+    "C:\\Dev\\Godot\\HighScore\\HighScore.csproj": {}
   },
   "projects": {
-    "C:\\DEV\\GODOT\\HIGHSCORE\\HighScore.csproj": {
+    "C:\\Dev\\Godot\\HighScore\\HighScore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DEV\\GODOT\\HIGHSCORE\\HighScore.csproj",
+        "projectUniqueName": "C:\\Dev\\Godot\\HighScore\\HighScore.csproj",
         "projectName": "HighScore",
-        "projectPath": "C:\\DEV\\GODOT\\HIGHSCORE\\HighScore.csproj",
+        "projectPath": "C:\\Dev\\Godot\\HighScore\\HighScore.csproj",
         "packagesPath": "C:\\Users\\adils\\.nuget\\packages\\",
-        "outputPath": "C:\\DEV\\GODOT\\HIGHSCORE\\.godot\\mono\\temp\\obj\\",
+        "outputPath": "C:\\Dev\\Godot\\HighScore\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Users\\adils\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
@@ -46,15 +46,15 @@
           "dependencies": {
             "Godot.SourceGenerators": {
               "target": "Package",
-              "version": "[4.0.0-beta.10, )"
+              "version": "[4.0.0-rc.1, )"
             },
             "GodotSharp": {
               "target": "Package",
-              "version": "[4.0.0-beta.10, )"
+              "version": "[4.0.0-rc.1, )"
             },
             "GodotSharpEditor": {
               "target": "Package",
-              "version": "[4.0.0-beta.10, )"
+              "version": "[4.0.0-rc.1, )"
             },
             "Npgsql": {
               "target": "Package",

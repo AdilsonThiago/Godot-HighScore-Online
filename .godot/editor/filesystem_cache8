@@ -1,0 +1,6 @@
+2a60927148abd1d33b818b535e306557
+::res://::1677005735
+ExecutorCS.cs::CSharpScript::-1::1676960995::0::1::::<><>::
+icon.svg::CompressedTexture2D::542822381032155122::1671042524::1671042624::1::::<><>::
+MenuPrincipal.gd::GDScript::-1::1676962276::0::1::::<>Control<>::
+MenuPrincipal.tscn::PackedScene::582953772640395050::1676962276::0::1::::<><>::res://MenuPrincipal.gd<>res://ExecutorCS.cs

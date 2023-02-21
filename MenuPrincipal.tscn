@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://iknfs724muy1"]
+[gd_scene load_steps=3 format=3 uid="uid://iknfs724muy1"]
 
-[ext_resource type="Script" path="res://ExecutorCS.cs" id="1_22h7a"]
+[ext_resource type="Script" path="res://MenuPrincipal.gd" id="1_ja8jk"]
+[ext_resource type="Script" path="res://ExecutorCS.cs" id="2_gt6il"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -9,9 +10,10 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_ja8jk")
 
 [node name="ExecutorCS" type="Node" parent="."]
-script = ExtResource("1_22h7a")
+script = ExtResource("2_gt6il")
 
 [node name="ListaPontuacao" type="ItemList" parent="."]
 layout_mode = 0
@@ -37,6 +39,7 @@ offset_bottom = 597.0
 text = "Mostrar Pontos"
 
 [node name="Panel" type="Panel" parent="."]
+visible = false
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -97,3 +100,8 @@ offset_top = 86.0
 offset_right = 477.0
 offset_bottom = 117.0
 placeholder_text = "Digite uma pontuação"
+
+[connection signal="pressed" from="RegistrarPontos" to="." method="_on_registrar_pontos_pressed"]
+[connection signal="pressed" from="MostrarPontos" to="." method="_on_mostrar_pontos_pressed"]
+[connection signal="pressed" from="Panel/Confirmar" to="." method="_on_confirmar_pressed"]
+[connection signal="pressed" from="Panel/Fechar" to="." method="_on_fechar_pressed"]

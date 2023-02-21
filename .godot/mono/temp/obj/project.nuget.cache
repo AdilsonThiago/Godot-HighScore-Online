@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "UswiKPgnP6ENnYMiGsFsj6X6Ee2QIO7Ylrbam6BnHDqSaUzTYxZyUTUCpPpPniqNf1deEyH0HWLVbdBCv5ArJQ==",
+  "dgSpecHash": "TVq92awfngBF4TlFcrjxWGsd2UtmTuZi7voY0v93pKiP+W5WzGY+MI8mOxG48KbbE31hgTTutA13sMGxalch6Q==",
   "success": true,
-  "projectFilePath": "C:\\DEV\\GODOT\\HIGHSCORE\\HighScore.csproj",
+  "projectFilePath": "C:\\Dev\\Godot\\HighScore\\HighScore.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\adils\\.nuget\\packages\\godot.sourcegenerators\\4.0.0-beta.10\\godot.sourcegenerators.4.0.0-beta.10.nupkg.sha512",
-    "C:\\Users\\adils\\.nuget\\packages\\godotsharp\\4.0.0-beta.10\\godotsharp.4.0.0-beta.10.nupkg.sha512",
-    "C:\\Users\\adils\\.nuget\\packages\\godotsharpeditor\\4.0.0-beta.10\\godotsharpeditor.4.0.0-beta.10.nupkg.sha512",
+    "C:\\Users\\adils\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godot.sourcegenerators\\4.0.0-rc.1\\godot.sourcegenerators.4.0.0-rc.1.nupkg.sha512",
+    "C:\\Users\\adils\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godotsharp\\4.0.0-rc.1\\godotsharp.4.0.0-rc.1.nupkg.sha512",
+    "C:\\Users\\adils\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godotsharpeditor\\4.0.0-rc.1\\godotsharpeditor.4.0.0-rc.1.nupkg.sha512",
     "C:\\Users\\adils\\.nuget\\packages\\npgsql\\3.0.0\\npgsql.3.0.0.nupkg.sha512"
   ],
   "logs": [
@@ -14,7 +14,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'Npgsql 3.0.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net6.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'Npgsql 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "Npgsql",
       "targetGraphs": [
         "net6.0"

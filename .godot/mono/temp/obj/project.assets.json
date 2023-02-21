@@ -2,13 +2,13 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Godot.SourceGenerators/4.0.0-beta.10": {
+      "Godot.SourceGenerators/4.0.0-rc.1": {
         "type": "package",
         "build": {
           "build/Godot.SourceGenerators.props": {}
         }
       },
-      "GodotSharp/4.0.0-beta.10": {
+      "GodotSharp/4.0.0-rc.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/GodotSharp.dll": {
@@ -21,10 +21,10 @@
           }
         }
       },
-      "GodotSharpEditor/4.0.0-beta.10": {
+      "GodotSharpEditor/4.0.0-rc.1": {
         "type": "package",
         "dependencies": {
-          "GodotSharp": "4.0.0-beta.10"
+          "GodotSharp": "4.0.0-rc.1"
         },
         "compile": {
           "lib/net6.0/GodotSharpEditor.dll": {
@@ -53,40 +53,37 @@
     }
   },
   "libraries": {
-    "Godot.SourceGenerators/4.0.0-beta.10": {
-      "sha512": "N0o/fQvwK9yUclSCdtHCbKzaO1QLDXpbmIPvnrJgBD6dye8d4mes2gWukKGTdQN3kJAp7VgNpleH1QR5TgLPvA==",
+    "Godot.SourceGenerators/4.0.0-rc.1": {
+      "sha512": "MBa0jX4y4anidJsz7MEP2fHZwqESuepUHDgms4W+Ay8ODVhDodfX3u2XICzu3+M0jQaMeDI2s72C8BpdAF1BRA==",
       "type": "package",
-      "path": "godot.sourcegenerators/4.0.0-beta.10",
+      "path": "godot.sourcegenerators/4.0.0-rc.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "analyzers/dotnet/cs/Godot.SourceGenerators.dll",
         "build/Godot.SourceGenerators.props",
-        "godot.sourcegenerators.4.0.0-beta.10.nupkg.sha512",
+        "godot.sourcegenerators.4.0.0-rc.1.nupkg.sha512",
         "godot.sourcegenerators.nuspec"
       ]
     },
-    "GodotSharp/4.0.0-beta.10": {
-      "sha512": "uacL+fUQ4I1Ji32Ry3qrPN+lNQ8bQC36UVMTLCQ9UbiW8qNlRENDZvRAGD7OiKq2kCMJf57q2C9jWRTZPpG3Kw==",
+    "GodotSharp/4.0.0-rc.1": {
+      "sha512": "xpUBEd316OL5iyBz9LmNpwzMEpwvEDTpqR0ewSpSt6QF08GGMtoOZ0mhxhbfRY7jXe3YCp54o0rIEL+jtWyGDA==",
       "type": "package",
-      "path": "godotsharp/4.0.0-beta.10",
+      "path": "godotsharp/4.0.0-rc.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
-        "godotsharp.4.0.0-beta.10.nupkg.sha512",
+        "godotsharp.4.0.0-rc.1.nupkg.sha512",
         "godotsharp.nuspec",
         "lib/net6.0/GodotSharp.dll",
         "lib/net6.0/GodotSharp.xml"
       ]
     },
-    "GodotSharpEditor/4.0.0-beta.10": {
-      "sha512": "YEHo9PordlBe5/+4N34RTVs5/kzPGdlfzMs+P9uuqWTqPS2qoyDj6/cc5/pAhikjudlBtCg8NFnrqBj3w0G6nw==",
+    "GodotSharpEditor/4.0.0-rc.1": {
+      "sha512": "dVq6WSfbrxScDS5AbOhQaN4fx96oINrhH6M8SiauP4DZ7w93xe1vgn3oEwzDga+lzFnMrANQ2MjbHFHCUZUMYA==",
       "type": "package",
-      "path": "godotsharpeditor/4.0.0-beta.10",
+      "path": "godotsharpeditor/4.0.0-rc.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
-        "godotsharpeditor.4.0.0-beta.10.nupkg.sha512",
+        "godotsharpeditor.4.0.0-rc.1.nupkg.sha512",
         "godotsharpeditor.nuspec",
         "lib/net6.0/GodotSharpEditor.dll",
         "lib/net6.0/GodotSharpEditor.xml"
@@ -108,9 +105,9 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Godot.SourceGenerators >= 4.0.0-beta.10",
-      "GodotSharp >= 4.0.0-beta.10",
-      "GodotSharpEditor >= 4.0.0-beta.10",
+      "Godot.SourceGenerators >= 4.0.0-rc.1",
+      "GodotSharp >= 4.0.0-rc.1",
+      "GodotSharpEditor >= 4.0.0-rc.1",
       "Npgsql >= 3.0.0"
     ]
   },
@@ -121,11 +118,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DEV\\GODOT\\HIGHSCORE\\HighScore.csproj",
+      "projectUniqueName": "C:\\Dev\\Godot\\HighScore\\HighScore.csproj",
       "projectName": "HighScore",
-      "projectPath": "C:\\DEV\\GODOT\\HIGHSCORE\\HighScore.csproj",
+      "projectPath": "C:\\Dev\\Godot\\HighScore\\HighScore.csproj",
       "packagesPath": "C:\\Users\\adils\\.nuget\\packages\\",
-      "outputPath": "C:\\DEV\\GODOT\\HIGHSCORE\\.godot\\mono\\temp\\obj\\",
+      "outputPath": "C:\\Dev\\Godot\\HighScore\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Users\\adils\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
@@ -160,15 +157,15 @@
         "dependencies": {
           "Godot.SourceGenerators": {
             "target": "Package",
-            "version": "[4.0.0-beta.10, )"
+            "version": "[4.0.0-rc.1, )"
           },
           "GodotSharp": {
             "target": "Package",
-            "version": "[4.0.0-beta.10, )"
+            "version": "[4.0.0-rc.1, )"
           },
           "GodotSharpEditor": {
             "target": "Package",
-            "version": "[4.0.0-beta.10, )"
+            "version": "[4.0.0-rc.1, )"
           },
           "Npgsql": {
             "target": "Package",
@@ -200,7 +197,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'Npgsql 3.0.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net6.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'Npgsql 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "Npgsql",
       "targetGraphs": [
         "net6.0"
